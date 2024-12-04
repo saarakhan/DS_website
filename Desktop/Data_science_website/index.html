@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saara Khan</title>
+
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon" />
+
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/Pic.jpg" class="Pic" alt="saarakhan" width="80" />
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="saarakhan">Saara Khan</h1>
+
+          <p class="title">Web developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:khansarah0716@gmail.com" class="contact-link">khansarah0716@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">9826520844</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Indore, India</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+      </div>
+    </aside>
+    <!--
+        - #main-content
+      -->
+
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Lead</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Assignment</button>
+          </li>
+        </ul>
+      </nav>
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hi, I’m Saara Khan, a Web Developer and open source enthusiast from India. I specialize in creating websites
+            that are both functional and visually appealing. With my expertise in the
+            MERN stack and passion for design, I love turning ideas into user-friendly digital experiences.
+          </p>
+
+          <p>
+            My goal is to build solutions that are simple, creative, and impactful, whether it’s a personal blog, a
+            dynamic platform, or a collaborative project. Let’s create something amazing
+            together!
+          </p>
+        </section>
+
+        <section class="testimonials">
+          <h3 class="h3 testimonials-title">Social Media</h3>
+          <div class="testimonials-container">
+            <div class="testimonials-item">
+              <a href="https://www.linkedin.com/in/saarakhan001/" target="_blank">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-1.png" alt="LinkedIn Logo" width="60" data-testimonials-avatar />
+                  </figure>
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title>LinkedIn</h4>
+                </div>
+              </a>
+            </div>
+
+            <div class="testimonials-item">
+              <a href="https://github.com/saarakhan" target="_blank">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-2.png" alt="GitHub Logo" width="60" data-testimonials-avatar />
+                  </figure>
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title>GitHub</h4>
+                </div>
+              </a>
+            </div>
+
+            <div class="testimonials-item">
+              <a href="https://www.youtube.com/channel/UCzH_osiPynaCV0FDfrR2gXA" target="_blank">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-3.png" alt="YouTube Logo" width="60" data-testimonials-avatar />
+                  </figure>
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title>YouTube</h4>
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
+      </article>
+
+      <article class="lead" data-page="lead">
+        <header>
+          <h2 class="h2 article-title">Lead</h2>
+        </header>
+
+        <section class="service">
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                  " alt="design icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Technical Lead</h4>
+
+                <p class="service-item-text">At AWS IIPS Cloud Club Indore</p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Developer Lead</h4>
+
+                <p class="service-item-text">At Google Developer Groups IIPS Indore</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- Assignment Page -->
+      <article class="assignment" data-page="assignment">
+        <header>
+          <h2 class="h2 article-title">Youtube Videos</h2>
+        </header>
+        <a
+          href="https://www.canva.com/design/DAGYJbsEn2E/1sJZ3jpkUJyoCioJtuzMcg/edit?utm_content=DAGYJbsEn2E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" class="canva-link">Canva Link</a>
+        <ul>
+          <li class="Heading">
+            <div class="video">
+              Video
+            </div>
+            <div class="title">
+              Title
+            </div>
+            <div class="date">
+              Date Of Creation
+            </div>
+          </li>
+
+          <a href="https://youtu.be/Gi-PYsOMnW4" target="_blank">
+            <li class="service-item  ass">
+              <div class="service-icon-box">
+                <img src="assets/Video-img/Lect-01.png" alt="">
+              </div>
+
+              <div class="ass-content-box">
+               Q1 : Basic commands in python
+              </div>
+              <div class="ass-date-box">
+                18-11-2024
+              </div>
+            </li>
+          </a>
+          <a href="https://youtu.be/f4lscagf_ME" target="_blank">
+            <li class="service-item  ass">
+              <div class="service-icon-box">
+                <img src="assets/Video-img/Lect-02.png" alt="">
+              </div>
+
+              <div class="ass-content-box">
+                Q2 : Data Preparation
+              </div>
+              <div class="ass-date-box">
+                18-11-2024
+              </div>
+            </li>
+          </a>
+          <a href="https://youtu.be/0wY0u20RCzY" target="_blank">
+            <li class="service-item  ass">
+              <div class="service-icon-box">
+                <img src="assets/Video-img/Lect-03.png" alt="">
+              </div>
+
+              <div class="ass-content-box">
+                Q3 : Exploratory Data Analysis
+              </div>
+              <div class="ass-date-box">
+                18-11-2024
+              </div>
+            </li>
+          </a>
+
+          <a href="https://youtu.be/3zOKZcQRFi4" target="_blank">
+            <li class="service-item  ass">
+              <div class="service-icon-box">
+                <img src="assets/Video-img/Lect-04.png" alt="">
+              </div>
+
+              <div class="ass-content-box">
+                Q4 :Data Preparation Phase to Model
+              </div>
+              <div class="ass-date-box">
+                18-11-2024
+              </div>
+            </li>
+          </a>
+          <a href="https://youtu.be/6NfriUtoxsw" target="_blank">
+            <li class="service-item  ass">
+              <div class="service-icon-box">
+                <img src="assets/Video-img/Lect-05.png" alt="">
+              </div>
+
+              <div class="ass-content-box">
+                Q5 : Model Evaluation
+              </div>
+              <div class="ass-date-box">
+                18-11-2024
+              </div>
+            </li>
+          </a>
+          <a href="https://youtu.be/2Qlzt-Qu384" target="_blank">
+            <li class="service-item  ass">
+              <div class="service-icon-box">
+                <img src="assets/Video-img/Lect-06.png" alt="">
+              </div>
+
+              <div class="ass-content-box">
+                Q6 :  Naive Bayes classification
+              </div>
+              <div class="ass-date-box">
+                18-11-2024
+              </div>
+            </li>
+          </a>
+          <a href="https://youtu.be/wKD417vg6es" target="_blank">
+            <li class="service-item  ass">
+              <div class="service-icon-box">
+                <img src="assets/Video-img/Lect-07.png" alt="">
+              </div>
+
+              <div class="ass-content-box">
+                Q7 :  Neural Network
+              </div>
+              <div class="ass-date-box">
+                20-11-2024
+              </div>
+            </li>
+          </a>
+          <a href="https://youtu.be/8zyM_g-acnQ" target="_blank">
+            <li class="service-item  ass">
+              <div class="service-icon-box">
+                <img src="assets/Video-img/Lect-08.png" alt="">
+              </div>
+
+              <div class="ass-content-box">
+                Q8 :  Clustering
+              </div>
+              <div class="ass-date-box">
+                20-11-2024
+              </div>
+            </li>
+          </a>
+          <a href="https://youtu.be/q4wOoxiC4Zo" target="_blank">
+            <li class="service-item  ass">
+              <div class="service-icon-box">
+                <img src="assets/Video-img/Lect-09.png" alt="">
+              </div>
+
+              <div class="ass-content-box">
+                Q9 :  Regression modelling
+              </div>
+              <div class="ass-date-box">
+                20-11-2024
+              </div>
+            </li>
+          </a>
+          <a href="https://youtu.be/YV0j_57HM7U" target="_blank">
+            <li class="service-item  ass">
+              <div class="service-icon-box">
+                <img src="assets/Video-img/Lect-10.png" alt="">
+              </div>
+
+              <div class="ass-content-box">
+                Q10 :  Dimension reduction
+              </div>
+              <div class="ass-date-box">
+                20-11-2024
+              </div>
+            </li>
+          </a>
+          <a href="https://youtu.be/WdWL8_jE1kc" target="_blank">
+            <li class="service-item  ass">
+              <div class="service-icon-box">
+                <img src="assets/Video-img/Lect-11.png" alt="">
+              </div>
+
+              <div class="ass-content-box">
+                Q11 :  Logistic Regression
+              </div>
+              <div class="ass-date-box">
+                20-11-2024
+              </div>
+            </li>
+          </a>
+          <a href="https://youtu.be/iKtfYvULvAY" target="_blank">
+            <li class="service-item  ass">
+              <div class="service-icon-box">
+                <img src="assets/Video-img/Lect-12.png" alt="">
+              </div>
+
+              <div class="ass-content-box">
+                Q12 :  ASSOCIATION RULES
+              </div>
+              <div class="ass-date-box">
+                20-11-2024
+              </div>
+            </li>
+          </a>
+        </ul>
+
+      </article>
+
+    </div>
+  </main>
+
+  <!--
+      - custom js link
+    -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+      - ionicon link
+    -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
