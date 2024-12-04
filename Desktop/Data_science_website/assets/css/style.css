@@ -164,7 +164,15 @@ html {
 body {
   background: var(--smoky-black);
 }
-
+.submissionPage {
+  color:#FEC764;
+  font-size: 40px;
+  transform: translateY(50%);
+  text-align: center;
+}
+.submissionPage:hover{
+  text-decoration: underline;
+}
 
 
 
